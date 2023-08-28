@@ -190,19 +190,3 @@
   190  git branch -Mmain
   191  clear
   192  history > cmds.log
-  193  git init
-  194  git add .
-  195  git commit -m "ws1"
-  196  git status
-  197  git branch -M main
-  198  git remote add origin https://github.com/Sthearye/cs131.git
-  199  git push -u origin main
-  200  mkdir ws1
-  201  mv cmds.log ws1
-  202  clear
-  203  ssh sokuntheary23fa@172.20.25.9
-  204  git init
-  205  git add .
-  206  mkdir cs131
-  207  cd cs131/
-  208  history > cmds.log
