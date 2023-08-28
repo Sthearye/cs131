@@ -174,3 +174,19 @@
   174  mkdir cs131
   175  cd cs131/
   176  history > cmds.log
+  177  git init
+  178  git add cmds.log
+  179  git commit -m "ws1"
+  180  git config user.email "you@example.com"
+  181  git config user.name "Your name"
+  182  git branch -M main
+  183  git remote add origin https://github.com/Sthearye/cs131.git
+  184  git pusg -u origin main
+  185  git push -u origin main
+  186  git remote add origin https://github.com/Sthearye/cs131.git
+  187  git push -u origin main
+  188  git add .
+  189  git commit -m "ws1"
+  190  git branch -Mmain
+  191  clear
+  192  history > cmds.log
