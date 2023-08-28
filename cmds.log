@@ -1,0 +1,176 @@
+    1  passwd
+    2  ssh sokuntheary23fa@172.20.25.9
+    3  wget wwwgithub.com
+    4  wget www.github.com
+    5  history>cmds.log
+    6  git clone https://github.com/Sthearye/cs131.git
+    7  undo
+    8  unclone
+    9  wget www.github.com
+   10  echo $SHELL
+   11  exit
+   12  history > cmds.log
+   13  clear
+   14  history 
+   15  history > cmds.log
+   16  exit
+   17  passwd
+   18  clear
+   19  exit
+   20  passwd
+   21  wget www.github.com
+   22  history > cmds.log
+   23  git push histoy > cmds.log 
+   24  git push cmds.log
+   25  To https://github.com/Sthearye/cs131
+   26  exit
+   27  passwd
+   28  Bear12254648iloveyou
+   29  clear
+   30  exit
+   31  passwd
+   32  exit
+   33  ssh sokuntheary23fa@172.20.25.9
+   34  Tbear314159
+   35  forgot password
+   36  exit
+   37  $ cat file
+   38  cat file
+   39  ls -l file
+   40  clear
+   41  date
+   42  clear
+   43  ls -latr
+   44  ls-lat
+   45  ls -lat
+   46  ls
+   47  I forgot my password
+   48  ssh sokuntheary23fa@172.20.25.9
+   49  sshd_config
+   50  /etc/ssh/sshd_config
+   51  exit
+   52  ssh sokuntheary23fa@172.20.25.9
+   53  exit
+   54  operating 
+   55  insights-client --status
+   56  insights-client --register
+   57  ssh sokuntheary23fa@172.20.25.9
+   58  passwd
+   59  wget www.github.com
+   60  history>cmds.log
+   61  history
+   62  clear
+   63  history
+   64  reset
+   65  history
+   66  mkdir es1
+   67  mkdir ws1
+   68  ls
+   69  rm index.html.1
+   70  ls
+   71  git init
+   72  ls
+   73  history>cmds.log
+   74  cd wsl
+   75  git init
+   76  ls
+   77  clear
+   78  index..html.1 ws1
+   79  clear
+   80  rm index.html
+   81  ls
+   82  ls index.html.1 ws1
+   83  cd ~/ws1
+   84  ls cs131.git
+   85  cd cs131.git
+   86  ls cmds.log history
+   87  touch history > cmds.log
+   88  ls cmds.log history
+   89  clear
+   90  history > cmds.log
+   91  git add cmds.log
+   92  git commit -m "ws1"
+   93  reset
+   94  history
+   95  pwd
+   96  clear 
+   97  history > cmds.log
+   98  pwd
+   99  ls
+  100  git init
+  101  got add .
+  102  git add .
+  103  git status
+  104  git commit -m "ws1"
+  105  clear
+  106  history > cmds.log
+  107  pwd
+  108  ls
+  109  git init
+  110  git add .
+  111  run git add .
+  112  git init
+  113  reset history
+  114  history
+  115  history > cmds.log
+  116  git init
+  117  git add .
+  118  git add cmds.log
+  119  git commit -m "ws1"
+  120  wget www.github.com
+  121  ls
+  122  git add cmds.log 
+  123  git commit -m "ws1"
+  124  clear
+  125  man
+  126  man controll
+  127  man
+  128  all
+  129  clear
+  130  man history
+  131  ls
+  132  history > cmds.log
+  133  ls cmds.log
+  134  git init
+  135  clear
+  136  history > cmds.log
+  137  ls
+  138  git init
+  139  clear
+  140  mkdir cs131
+  141  git init
+  142  git add
+  143  clear
+  144  ssh sokuntheary23fa@172.20.25.9
+  145  mkdir cs131
+  146  ls
+  147  ls cs131
+  148  clear
+  149  mkdir 
+  150  clear
+  151  mkdir cs131
+  152  ls
+  153  history > cmds.log
+  154  git init
+  155  git status
+  156  git add cmds.log
+  157  git status
+  158  git commit - m
+  159  git commit -m
+  160  git commit -m "WS1 for CS 131"
+  161  git config --global user.email "stearye03@gmail.com"
+  162  git config --global user.name "
+  163  git config -- global user.name "Sokuntheary Em"
+  164  clear
+  165  mkdir cs131
+  166  ls
+  167  history > cmds.log
+  168  git init
+  169  git status
+  170  git add cmds.log
+  171  git commit -m
+  172  git commit -m "ws1"
+  173  git branch -Mmain
+  174  mkdir cs131
+  175  cd cs131/
+  176  history > cmds.log
