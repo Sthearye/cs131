@@ -1,0 +1,20 @@
+   
+  244  ls directory
+  245  clear
+  246  tar zxvf taxidata*
+  247  ls
+  248  cd taxidata
+  249  ls
+  250  grep ".",.*,\"2019-03-12.*" 2019-03.csv
+  251  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | tail -n 20 > results.txt
+  252  cat results.txt
+  253  mv results.txt ..
+  254  cd ..
+  255  ls
+  256  mk ws2
+  257  mkdir ws2
+  258  ls
+  259  mv results.txt ws2
+  260  ls ws2
+  261  history > ws2/cmds.log
+  
