@@ -1,0 +1,21 @@
+ 976  cd a1
+  977  ls
+  978  cd cs131
+  979  ls
+  980  cd a1
+  981  id -u master
+  982  id -u
+  983  mkdir temp
+  984  chmod -x temp
+  985  ls
+  986  ls -l
+  987  mkdir temp2
+  988  mv temp2 temp3
+  989  ls
+  990  grep MemTotal/proc/meminfo
+  991  grep MemTotal /proc/meminfo
+  992  cat/etc/os-release
+  993  cat /etc/os-release
+  994  ls -l /etc
+  995  ls
+1030  history > cmds.log

@@ -1,0 +1,17 @@
+1.cd a1
+2.echo $HOME
+3.id -u
+4.mkdir temp
+  chmod -x temp
+  ls
+5. mkdir temp2
+   mv temp2 temp3
+   yes, you still can move the directory to temp3
+6. lscpu 
+7. grep MemTotal /proc/meminfo
+9. cat /etc/os-release 
+10. ls -l /etc 
+
+
+
+mnt/scratch/sokuntheary23fa
