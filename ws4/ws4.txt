@@ -1,0 +1,9 @@
+sum of all fare amounts from 79.0 to 125.0
+1126552099
+6941025 79.0-125.0.txt
+# average fare amount from 79.0 to 125.0
+
+9.021
+
+0 145Fare.txt
+5.582

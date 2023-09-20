@@ -1,0 +1,29 @@
+1035  rm -rf "ws4.txt"
+ 1036  vim .basrc
+ 1037  vim .bash_profile
+ 1038  l
+ 1039  w
+ 1040  script ws4.txt
+ 1041  cd taxidata
+ 1042  cut -d, -f8,9,11 2019-06.csv > cut-lines.txt
+ 1043  cut-lines.txt > 79.0-125.0.txt
+ 1044  clear
+ 1045  ls
+ 1046  rm -rf "79.0-125.0.txt"
+ 1047  rm -rf "cut-lines.txt"
+ 1048  clear
+ 1049  cut -d, -f8,9,11 2019-06.csv > cut-lines.txt >> 79.0-125.0.txt
+ 1050  echo "sum of all fare amounts from 79.0 to 125.0" >> ws4.txt
+ 1051  awk '{ sum += $1 } END { print sum }' 79.0-125.0.txt >> ws4.txt
+ 1052  wc -l 79.0-125.0.txt >> ws4.txt
+ 1053  echo "# average fare amount from 79.0 to 125.0" >> ws4.txt 
+ 1054  nano ws4.txt
+ 1055  echo 'scale=3; (13415.5)/1487' | bc >> ws4.txt
+ 1056  grep "^145.0,145.0" cut-lines.txt 
+ 1057  grep "^145.0,145.0" cut-lines.txt > 145-145-cutlines.txt
+ 1058  cut -d, -f3 145-145-cutlines.txt > 145Fare.txt
+ 1059  awk '{ sum += $1 } END { print sum }' 145Fare.txt >> ws4.txt 
+ 1060  wc -l 145Fare.txt >> ws4.txt 
+ 1061  echo "scale=3; (17115.4)/3066" | bc >> ws4.txt 
+ 1062  mv 145Fare.txt 145.0-145.0.txt
+ 1063  history 100 > cmds.log
