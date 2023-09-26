@@ -1,0 +1,34 @@
+#Q1  average amount of total amount
+grep -E "^.{3},\"2019-05-11" 2019-05.csv | cut -d, -f17 | paste -s -d+ | bc > a2.txt
+
+echo "scale=3; (4509482.36/252413" | bc >> a2.txt
+17.865
+
+#Q2 highest total amount paid by customer
+grep -E "^.{3},\"2019-05-11" 2019-05.csv | cut -d, -f17 | sort -r | head -1 >> a2.txt
+99.96
+
+#Q3 Among the rides with three or more customers, identify the 10 most popular drop-off location (may 2019) 
+ grep -E "^(([^,]*,)){3}[^012]\.." 2019-05.csv | cut -d, -f9 >> duloc.txt
+Sort -n duloc.txt | uniq -c | sort nr | head -10 >> a2.txt
+  39909 236.0
+  37140 237.0
+  36990 161.0
+  33678 230.0
+  28506 170.0
+  27895 162.0
+  27485 48.0
+  26782 142.0
+  25051 239.0
+  24609 234.0
+
+#Q4 Among the rides from the most popular pickup location on May 20, 2019, what was the most popular dropoff location?
+ grep -E "^[^,]*,\"2019-05-20" 2019-05.csv | cut -d, -f8 | sort | uniq -c | sort -nr | head -1 >> most-pop-puloc.txt
+52363 236.0
+
+#Q5 Which pickup location was most popular (busiest) throughout the year (Jan-Dec) in 2019?
+cd..
+ls . | split
+cat xxa | xargs cat -v >> 2019.csv
+grep -E “…,\”2019” 2019.csv > 2019-filtere.csv
+cut -d, -f8 2019-filtered.csv | sort | uniq -c | sort -nr | head -1 >> popular-puloc-2019.txt & a2.txt
