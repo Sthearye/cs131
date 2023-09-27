@@ -1,0 +1,27 @@
+ 924  grep -E "^.{3},\"2019-05.csv" | cut -d, -f17 | paste -s -d+ | bc > a2.txt
+  925  clear
+  926  grep -E "^.{3},\"2019-05-11" 2019-05.csv | cu -d, -f17 | paste -s -d+ | bc > a2.txt
+  927  grep -E "^.{3},\"2019-05-11" 2019-05.csv | cut -d, -f17 | paste -s -d+ | bc > a2.txt
+  928  ls
+  929  cat a2.txt
+  930  echo "scale=3; (4509482.36/252413" | bc >> a2.txt
+  931  echo "scale=3; (4509482.36/252413)" | bc >> a2.txt
+  932  ls
+  933  cat a2.txt
+  934  vim a2.txt
+  935  grep _E "^.{3},\"2019-05-11" 2019-05.csv | cut -d, -f17 | sort -r | head -1 >> a2.txt
+  936  grep _E "^.{3},\"2019-05-11" 2019-05.csv | cut -d, -f17 | sort -r | head -1 > a2.txt
+  937  grep -E "^.{3},\"2019-05-11" 2019-05.csv | cut -d, -f17 | sort -r | head -1 >> a2.txt
+  938  cat a2.txt
+  939  vim a2.txt
+  940  ls
+  941  vim a2.txt
+  942  grep -E "^(([^,]*,)){3}[^012]\.."2019-05.csv | cut -d, -f9 >> duloc.txt
+  943  grep -E "^(([^,]*,)){3}[^012]\.." 2019-05.csv | cut -d, -f9 >> duloc.txt
+  944  sort -n duloc.txt | uniq -c | sort -nr | head -10 >> a2.txt
+  945  cat a2.txt
+  946  grep -E "^[^,]*,\2019-05-20" 2019-05.csv | cut -d, -f8 | sort | uniq -c | sort -nr | head -1 >> most-pop-puloc.txt
+  947  grep -E "^[^,]*,\"2019-05-20" 2019-05.csv | cut -d, -f8 | sort | uniq -c | sort -nr | head -1 >> most-pop-puloc.txt
+  948  cat most-pop-puloc.txt
+  949  grep -E "^(([^,]*),){7}237\.0" 2019-05.csv | cut -d, -f9 | sort | uniq -c | sort -nr | head -1 >> a2.txt
+1045  history > cmds.log
