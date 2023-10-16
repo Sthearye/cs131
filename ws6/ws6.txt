@@ -1,5 +1,5 @@
 sed -n '/^2.0/ p' 2019-11.csv >> vendroid2.csv
-	wc vendroid2.csv: 495052 
+	wc vendroid2.csv: 49505249 
 
 sed 's/://g; s/-//g; s/"//g' >> no-separators2.csv
 vendorid,tpep_pickup_datetime,tpep_dropoff_datetime,passenger_count,trip_distance,ratecodeid,store_and_fwd_flag,pulocationid,dolocationid,payment_type,fare_amount,extra,mta_tax,tip_amount,tolls_amount,improvement_surcharge,total_amount,congestion_surcharge
