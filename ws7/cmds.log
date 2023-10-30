@@ -1,0 +1,5 @@
+ 1575  nano tip-frequency.awk 
+ 1589  awk -f tip-frequency.awk 2019-12.csv | sort | uniq -c >> temp-results.txt
+ 1602  sed -r 's/^[ ]*//g' temp-results.txt >> temp2-results.txt 
+ 1605  awk '{print $2, $1}' temp2-results.txt >> results.txt
+ 1609  sort -nr temp2-results.txt | head -20 > ws7.txt 
