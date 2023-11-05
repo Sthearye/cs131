@@ -1,0 +1,1 @@
+sed -r -e ‘1 s/YEAR/START, END/‘ -e ’s/\(//g’ -e ’s/\)/,/g’ -e ’s/-|-\ /,/g’ movies.csv > clean-movies.csv
