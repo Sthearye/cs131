@@ -1,0 +1,28 @@
+Task 1 
+ 919  vim a3t1.awk
+  923  chmod u+rwx a3t1.awk
+  971  awk -f a3t1.awk 2019-08.csv | sort -nr | head -10 > a3.txt
+
+Task 2
+  974  vim a3t2.awk
+  975  chmod u+rwx a3t2.awk
+  987  awk -f a3t2.awk 2019-08.csv | tail -1 >> a3.txt
+
+Task 3
+  997  vim a3t3.awk
+ 1012  chmod u+rwx a3t3.awk
+ 1013  awk -f a3t3.awk 2019-08.csv > passenger_tip.dat
+ 1045  sed -i '/:/d' passenger_tip.dat
+ 1047  sed -i '/vendorid/d' passenger_tip.dat
+ 1051  vim barplot.plt
+ 1052  gnuplot barplot.plt
+ 1053  vim barplot.plt
+ 1065  gnuplot load 'barplot.plt'
+
+Task 4
+ 1069  vim a3t4.awk
+ 1070  awk -f a3t4.awk 2019-08.csv > distance_total.dat
+ 1073  sed -i '/:/d' distance_total.dat
+ 1074  sed -i '/vendorid/d' distance_total.dat
+ 1076  vim scatterplot.plt
+ 1078  gnuplot load scatterplot.plt
