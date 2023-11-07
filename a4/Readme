@@ -1,0 +1,6 @@
+Issues I found in the movies.csv
+- For some of the movies, the year column format are inconsistent. For example, some of the movies have parenthesis but 
+some don’t. Some movies also doesn’t have the start date or end date. This will make it harder for the user to process 
+because they’re unable to use matching the start date or end date when working on the dataset. 
+- So I’m tactically this issue by splitting the “Year” field into 2 fields: “Start” and “End”. I will use sed to accomplish 
+this task. 
