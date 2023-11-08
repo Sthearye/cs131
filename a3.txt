@@ -1,16 +1,0 @@
-Task 1: Top 10 Pickup Locations
-Average total amount, Pickup Location
-
-143.960000,221.0
-95.841289,1.0
-88.889515,265.0
-87.170930,5.0
-87.046667,156.0
-74.492931,23.0
-73.150000,99.0
-70.700000,176.0
-65.259412,118.0
-62.048144,10.0
-
-Task 2
-Highest average total amount location pair: 138.015.0
