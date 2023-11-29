@@ -1,0 +1,17 @@
+set terminal svg
+set output 'box2.txt'
+
+set boxwidth 0.6 relative
+set style fill solid 1.0 
+set style histogram 
+
+set datafile separator ','
+
+set title "Difference Type of Crimes in Each City"
+set xlabel "City"
+set xlabel ($city)
+set ylabel "Case Incident Type"
+set ylabel ($1)
+
+
+plot 'bashscript.sh' using 2:xtic(1) with boxes title "diffcrime"

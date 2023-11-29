@@ -1,0 +1,17 @@
+set terminal svg
+set output 'box.plt'
+
+set boxwidth 0.6 relative
+set style fill solid 1.0 
+set style histogram 
+
+set datafile separator ','
+
+set title "Total Number of Crimes in Each City"
+set xlable ($city)
+set xlabel "City"
+set ylabel "Total of crime"
+
+set yrange[0:200]
+
+plot 'csvlook' using 2:xtic(1) with boxes title "crimetotal"

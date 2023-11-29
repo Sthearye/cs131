@@ -1,0 +1,14 @@
+1568 wget https://kaggle.com/crimedata-au.csv
+1569 tar zxvf crimedata-au.csv*
+1580 head crimedata-au.csv | csvlook
+1595 csvcut -c 1-5 crimedata-au.csv | csvlook
+1602 csvstat -n crimedata-au.csv
+1605 sort -n -t "," -k 11 crimedata-au.csv | tail -n 1 | awk -F','{print $1 "," $11}'
+1689 cat crimedata-au.csv | csvcut -c "Case Incident Type","Sydney" | sort -n -t "," -k 2
+1768 cat crimedata-au.csv | csvcut "Case Incident Type","Sydney" | sort -n -t "," -k 2 | tail -n 1
+1790 funtion topcrime() { cat $1 | csvcut -c "Case Incident Type", $2 | sort -n -t "," -k 2 | tail -n 1 | awk -F','{print $1 "= "$2}'
+1795 topcrime crimedata-au.csv Sydney
+1802 vim bashscript.sh
+1804 chmod +x bashscipt.sh
+1806 ./bashscript.sh crimedata-au.csv | tail -n 1
+

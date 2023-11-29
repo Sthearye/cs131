@@ -1,0 +1,21 @@
+Project goals:
+1. What is the top most crime type in Australia by the total number of crimes in all major cities?
+
+$sort -n -t "," -k 11 crimedata-au.csv | \tail -n 1 | \ awk -F ',' '{print $1 "," $11}'
+- Drugs Imported, 434
+
+2. And what is top most crime type in Australia by the total number of crimes per city?
+
+$cat crimedata-au.csv | csvcut -c "Case Incident Type", "Sydney" | sort -n -r -t "," -k 2
+Drugs ? Imported,191
+
+3. What is the average number of crimes, per city?
+
+function avgcrimes() { cat $1 | csvcut -c "Case Incident Type" , $2 | \ > awk -F ',' '{ total +=$2 } END { print "Average no. of crimes=" total/NR }' ;}
+avgcrimes crime data-au.csv Sydney
+Average no. of crimes=11.5122
+
+4. Which city had the least crimes? or what's the best city in Australians terms of crimes?
+
+$./bashscript.sh crimedata-au.csv | tail -n 1
+The best city was: Hobert, with total number of crimes = 21
